@@ -80,7 +80,6 @@ function getLastPosition() {
     xhr.send();
 }
 
-// عند تحميل الصفحة، الحصول على آخر موضع محفوظ
 window.onload = function() {
     getLastPosition();
 }
