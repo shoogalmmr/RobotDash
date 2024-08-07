@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f2d6; /* تغيير لون خلفية الصفحة */
+    background-color: #f5f2d6; 
 }
 
 .container {
@@ -33,15 +33,15 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 10px; /* تدوير زوايا الأزرار */
-    background-color: #c1ffc9; /* لون خلفية الأزرار */
-    color: #1f1702; /* لون نص الأزرار */
+    border-radius: 10px; 
+    background-color: #c1ffc9; 
+    color: #1f1702; 
     border: none;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #86f1a1; /* تغيير لون الخلفية عند التمرير فوق الأزرار */
+    background-color: #86f1a1; 
 }
 
 #movable {
