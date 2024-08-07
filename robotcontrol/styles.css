@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff; 
+    background-color: #f4eedd ; 
 }
 
 .container {
@@ -34,19 +34,19 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px; 
-    background-color: #f4fcd4; 
+    background-color: #a3c8e0 ; 
     color: #1f1702; 
     border: none;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ece6c2; 
+    background-color: #c6cfec; 
 }
 
 #movable {
     width: 50px;
     height: 50px;
-    background-color: #000000;
+    background-color: #95f3ad;
     position: relative;
 }
