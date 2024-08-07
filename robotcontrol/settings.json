@@ -1,0 +1,8 @@
+{
+    "launch": {
+        "configurations": [
+        
+        ]
+    },
+    "redhat.telemetry.enabled": true
+}
