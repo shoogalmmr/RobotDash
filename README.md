@@ -1,7 +1,7 @@
 # Design and Simulation of Robot Movement Control Using Web Interface and MySQL
 The project presents a robot simulation system controlled through a simple web interface. Movement commands and positions are stored in a MySQL database for tracking and analysis.
 ## Table of content
-*[Project Overiew](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#project-overview)*
+*[Project Overiew](https://github.com/shoogalmmr/RobotDash#project-overview)*
 
 *[Web Interface](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#web-interface)*
 
