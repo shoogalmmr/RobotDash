@@ -3,7 +3,7 @@ The project presents a robot simulation system controlled through a simple web i
 ## Table of content
 *[Project Overiew](https://github.com/shoogalmmr/RobotDash#project-overview)*
 
-*[Web Interface](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#web-interface)*
+*[Web Interface]((https://github.com/shoogalmmr/RobotDash#web-interface)*
 
 *[Project Components](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#project-components)*
 
