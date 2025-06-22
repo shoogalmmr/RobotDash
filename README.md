@@ -50,8 +50,15 @@ position_horizontal: The robot’s horizontal position.
 
 position_vertical: The robot’s vertical position.
 
-## قاعده البيانات 
-عند تحريك الروبوت يقوم بتخزين اتجاهات تحركه . فمثلا قمت بتحريكه لليمين فقام بتخزين حركته و موقعه الاخير في قاعده البيانات
+## Example 
+
+When the robot is moved, each movement direction along with its latest position is stored in the database.
+For example, if the robot is moved to the right, the system records this command ("right") along with the updated horizontal and vertical positions in the positions table.
+This serves as a clear example of how every action taken through the control interface is logged and tracked in the database for monitoring and analysis.
+
+Example stored data:
+
+
 
 <img src= "https://github.com/user-attachments/assets/e651646f-0748-4708-8fd9-e6d432f73b05" width="800" height="400">
 <img src= "https://github.com/user-attachments/assets/e6ab7715-0a05-4903-be6b-72350debe775" width="800" height="400">
