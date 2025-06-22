@@ -9,7 +9,7 @@ The project presents a robot simulation system controlled through a simple web i
 
 *[Project Goals](https://github.com/shoogalmmr/RobotDash/tree/main#project-goals)*
 
-*[Kay Features](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#key-features)*
+*[Kay Features](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#key-features)*
 
 ## Project Overview
 
