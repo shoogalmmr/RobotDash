@@ -1,5 +1,7 @@
 # لوحة التحكم بالروبوت
-لتحكم بحركه الروبوت قمت بأنشاء صفحه ويب تظهر ازرار تحكم في روبوت كذلك قمت بربطها بقاعده بيانات تخزن اتجاهات حركه الروبوت و اخر موضع .
+This project focuses on designing and developing an interactive web-based control panel that allows users to remotely control a robot's movement using on-screen directional buttons. The system is integrated with a MySQL database through phpMyAdmin to store all robot movement directions and its latest position in real time.
+
+
 
 ## صفحه الويب 
 تظهر صفحه الويب ازرار التحكم في روبوت حيث قمت بتصميم محاكاه لروبوت (المربع الاخضر) 
