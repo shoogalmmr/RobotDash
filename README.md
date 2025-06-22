@@ -7,7 +7,7 @@ The project presents a robot simulation system controlled through a simple web i
 
 *[Project Components](https://github.com/shoogalmmr/RobotDash/blob/main/README.md#project-components)*
 
-*[Project Goals](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#project-goals)*
+*[Project Goals][([https://github.com/shoogalmmr/Control-Board/edit/main/README.md#project-goals)](https://github.com/shoogalmmr/RobotDash/blob/main/README.mdoogalmmr/RobotDash#project-goals)*
 
 *[Kay Features](https://github.com/shoogalmmr/Control-Board/edit/main/README.md#key-features)*
 
