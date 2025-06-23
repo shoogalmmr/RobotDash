@@ -172,35 +172,35 @@ Follow the steps below to run the robot control simulation project locally on yo
 
 1- Open your browser and go to http://localhost/phpmyadmin
 
-2- Create a new database, e.g., MovableDB.
+2- Create a new database, e.g., ```MovableDB```.
 
 3- Import the provided SQL structure:
 
 - Go to the Import tab.
 
-- Choose the positions.sql file https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql or manually copy the code inside it to create the positions table in the database.
+- Choose the [positions.sql file](https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql) or manually copy the code inside it to create the positions table in the database.
 
 **Step 3: Place Project Files**
 
-Copy the entire robotcontrol/ folder https://github.com/shoogalmmr/RobotDash/tree/main/robotcontrol (which contains the following files) into the htdocs directory inside your XAMPP installation:
+Copy the entire [robotcontrol/ folder](https://github.com/shoogalmmr/RobotDash/tree/main/robotcontrol) (which contains the following files) into the htdocs directory inside your XAMPP installation:
 
-*index.html, styles.css, script.js, save_position.php, get_last_position.php, db_config.php*
+```index.html, styles.css, script.js, save_position.php, get_last_position.php, db_config.php```
 
 **Step 4: Configure Database Connection**
 
-Open the db_config.php file https://github.com/shoogalmmr/robotcontrol/db_config.php and ensure that the database connection settings are correctly configured based on your local environment.
+Open the ```db_config.php file``` and ensure that the database connection settings are correctly configured based on your local environment.
 
 *Note: Make sure that the database name used in this file matches exactly the name of the database you created in phpMyAdmin (e.g., MovableDB). Otherwise, the connection will not work properly.*
 
 
 **Step 5: Run the Project**
-Open your browser and go to:
-http://localhost/robotcontrol/index.html
+
+Open your browser and go to: http://localhost/robotcontrol/index.html
 
 You should now see the robot control interface. Try clicking movement buttons and watch the robot move while the position is saved in the database.
 
 *Test It*
-Open phpMyAdmin and check the positions table to verify that commands and positions are being recorded correctly.
+Open phpMyAdmin and check the ```positions``` table to verify that commands and positions are being recorded correctly.
 
 
 ##  Future Improvements
