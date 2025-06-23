@@ -170,7 +170,7 @@ Follow the steps below to run the robot control simulation project locally on yo
 
 **Step 2: Create the Database**
 
-1- Open your browser and go to [http://localhost/phpmyadmin.]
+1- Open your browser and go to (http://localhost/phpmyadmin.)
 
 2- Create a new database, e.g., robot_control.
 
@@ -178,11 +178,11 @@ Follow the steps below to run the robot control simulation project locally on yo
 
 - Go to the Import tab.
 
-- Choose the positions.sql file[https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql]or manually copy the code inside it to create the positions table in the database.
+- Choose the positions.sql file (https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql) or manually copy the code inside it to create the positions table in the database.
 
 **Step 3: Place Project Files**
 Step 3: Place Project Files
-Copy the entire robotcontrol/ folder (which contains the following files) into the htdocs directory inside your XAMPP installation:
+Copy the entire robotcontrol/ folder (https://github.com/shoogalmmr/RobotDash/tree/main/robotcontrol) (which contains the following files) into the htdocs directory inside your XAMPP installation:
 
 index.html
 
