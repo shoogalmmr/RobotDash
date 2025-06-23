@@ -138,7 +138,7 @@ This logging mechanism ensures that every movement is tracked, recorded, and can
 
 ebugging.
 
-### Example stored data in ```positions``` table:
+### Example stored data :
 
 <img src= "https://github.com/user-attachments/assets/e651646f-0748-4708-8fd9-e6d432f73b05">
 
