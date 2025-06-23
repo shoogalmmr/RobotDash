@@ -259,4 +259,4 @@ I’d be happy to connect or have you explore my other projects.
 
 GitHub: [@shoogalmmr](https://github.com/shoogalmmr)
 
-LinkedIn [Shoog](www.linkedin.com/in/shoog-almmr)
+LinkedIn [Shoog](https://www.linkedin.com/in/shoog-salem-554624255/)
