@@ -153,6 +153,74 @@ Field |	Type | Description |
 
 This table is managed using phpMyAdmin and is connected to the system through PHP. Every time a movement command is issued, a new record is added with the direction and updated position.
 
+## Installation 
+Follow the steps below to run the robot control simulation project locally on your machine using XAMPP and phpMyAdmin:
+
+### **Requirements**
+- XAMPP (to run Apache and MySQL)
+
+- A modern web browser (e.g., Chrome, Firefox)
+
+### **Setup Instructions**
+**Step 1: Start XAMPP**
+Open XAMPP Control Panel.
+
+Start both Apache and MySQL modules.
+**Step 2: Create the Database**
+- 1- Open your browser and go to [http://localhost/phpmyadmin]
+
+- 2- Create a new database, e.g., robot_control.
+
+- 3- Import the provided SQL structure:
+- Go to the Import tab.
+- Choose your .sql file or paste the following code manually to create the positions table:
+
+CREATE TABLE `positions` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `position_horizontal` INT(11) DEFAULT NULL,
+  `position_vertical` INT(11) DEFAULT NULL,
+  `command` VARCHAR(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+**Step 3: Place Project Files**
+Copy the following project files to the htdocs folder inside your XAMPP directory:
+
+index.html
+
+styles.css
+
+script.js
+
+save_position.php
+
+get_last_position.php
+
+db_config.php
+
+robotcontrol/ (if it is a folder containing the above files, move the entire folder)
+
+**Step 4: Configure Database Connection**
+Open the db_config.php file and update the database settings if needed:
+
+php
+نسخ
+تحرير
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "robot_control"; // Make sure this matches your database name
+
+**Step 5: Run the Project**
+Open your browser and go to:
+http://localhost/robotcontrol/index.html
+
+You should now see the robot control interface. Try clicking movement buttons and watch the robot move while the position is saved in the database.
+
+*Test It*
+Open phpMyAdmin and check the positions table to verify that commands and positions are being recorded correctly.
+
+
 ##  Future Improvements
 - **Integrate with a Physical Robot Using Arduino or Raspberry Pi**
 Transform the simulation into a real-world robot control system.
