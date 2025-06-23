@@ -173,15 +173,7 @@ Start both Apache and MySQL modules.
 
 - 3- Import the provided SQL structure:
 - Go to the Import tab.
-- Choose your .sql file or paste the following code manually to create the positions table:
-
-CREATE TABLE `positions` (
-  `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `position_horizontal` INT(11) DEFAULT NULL,
-  `position_vertical` INT(11) DEFAULT NULL,
-  `command` VARCHAR(10) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+- Choose the positions.sql file or manually copy the code inside it to create the positions table in the database.
 
 **Step 3: Place Project Files**
 Copy the following project files to the htdocs folder inside your XAMPP directory:
