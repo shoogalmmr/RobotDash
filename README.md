@@ -106,6 +106,22 @@ ebugging.
 
 This example demonstrates how each action from the interface is stored in the database, along with its corresponding coordinates. The attached image clearly shows the robot's movement within the interface and how the position updates visually as each command is executed.
 
+##  Database Structure 
+
+The project uses a single table named ```positions``` to store all movement data of the robot. Below is a description of the table and its fields:
+
+Table: ```positions```
+
+Field |	Type | Description |
+|--------------------------|-------------------|---------------------------------|
+```id```	| INT(11)	| Auto-incremented unique ID for each entry |
+```position_horizontal```	| INT(11)	| The horizontal coordinate of the robot |
+```position_vertical``` |	INT(11)	| The vertical coordinate of the robot |
+```command``` |	VARCHAR(10)	| The direction command (e.g., left, right)|
+
+This table is managed using phpMyAdmin and is connected to the system through PHP. Every time a movement command is issued, a new record is added with the direction and updated position.
+
+
 ## Project Goals:
 
 - Simplify remote robot control through a user-friendly interface.
