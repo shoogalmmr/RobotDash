@@ -173,7 +173,7 @@ Start both Apache and MySQL modules.
 
 - 3- Import the provided SQL structure:
 - Go to the Import tab.
-- Choose the positions.sql file or manually copy the code inside it to create the positions table in the database.
+- Choose the positions.sql file [https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql] or manually copy the code inside it to create the positions table in the database.
 
 **Step 3: Place Project Files**
 Copy the following project files to the htdocs folder inside your XAMPP directory:
