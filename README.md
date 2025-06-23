@@ -64,17 +64,6 @@ The web page displays a set of control buttons used to direct the movement of a 
 
 ```position_vertical```: The robot’s vertical position.
 
-#### Example 
-
-When the robot is moved, each movement direction along with its latest position is stored in the database.
-For example, if the robot is moved to the right, the system records this command (right) along with the updated horizontal and vertical positions in the ```positions```table.
-This serves as a clear example of how every action taken through the control interface is logged and tracked in the database for monitoring and analysis.
-
-Example stored data:
-
-<img src= "https://github.com/user-attachments/assets/e651646f-0748-4708-8fd9-e6d432f73b05">
-<img src= "https://github.com/user-attachments/assets/e6ab7715-0a05-4903-be6b-72350debe775">
-
 ### **4- Robot Communication Logic:**
 
 - The robot reads the latest records from the positions table.
@@ -83,6 +72,39 @@ Example stored data:
 
 - The robot can be programmed using Arduino C, Python, or another suitable microcontroller-based language.
 
+
+## How It Works 
+
+When a user interacts with the web interface and clicks a movement button (e.g., Right, Left, Forward, Backward, or Stop), the system performs the following steps:
+
+1- The selected command is sent to the server using PHP.
+
+2- The system calculates or updates the robot's current position (horizontal and vertical).
+
+3- The command along with the updated position is inserted into the ```positions``` table in the MySQL database.
+
+4- The robot (represented by a green square on the screen) moves accordingly based on the command.
+
+5- The interface remains responsive, allowing real-time interaction.
+
+This logging mechanism ensures that every movement is tracked, recorded, and can be analyzed later for behavior monitoring or debugging.
+
+ebugging.
+
+### Example stored data in ```positions``` table:
+
+<img src= "https://github.com/user-attachments/assets/e651646f-0748-4708-8fd9-e6d432f73b05">
+
+
+|id	|position_horizontal|position_vertical|command|
+|-------|-------|-------|--------|
+511 |	-25	| 115 |	right |
+510	| -55	| 115 | right |
+509	| -60 |	115	| right |
+508	| -65 | 115 |	right |
+507 | -70 | 115 | stop |
+
+This example demonstrates how each action from the interface is stored in the database, along with its corresponding coordinates. The attached image clearly shows the robot's movement within the interface and how the position updates visually as each command is executed.
 
 ## Project Goals:
 
