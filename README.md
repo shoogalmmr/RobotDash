@@ -221,9 +221,9 @@ The project is organized in a simple and clear structure. Below is a description
 
 | File | Folder	Description| 
 |--------------------------|--------------------------------------------------------------------------------------------|
-```index.html``` |	The main web page that displays the robot control interface (buttons, layout, robot area).|
-```styles.css```	| Contains all the styling rules (colors, layout, positioning) for the web interface.|
-```script.js```	| Handles the front-end logic, including button clicks, movement animations, and AJAX requests.|
+```index.html``` |	The main web page that displays the robot control interface (buttons, robot area).|
+```styles.css```	| Contains all the styling rules (colors, positioning) for the web interface.|
+```script.js```	| Handles the front-end logic, including button clicks, and movement animations.|
 ```save_position.php```	| Receives movement commands and saves them with the updated position into the MySQL database.|
 ```get_last_position.php```	| Fetches the last saved position of the robot from the database to keep the interface updated.|
 ```db_config.php```	| Contains the database connection settings (host, user, password, and database name).|
@@ -235,3 +235,13 @@ The project is organized in a simple and clear structure. Below is a description
 ```positions.sql```|A SQL file exported from phpMyAdmin. It defines the structure of the positions table used to store movement commands and positions. It should be imported manually into the database using phpMyAdmin. |
 
 **Note: All files (except [positions.sql ](https://github.com/shoogalmmr/RobotDash/blob/main/positions.sql) ) should be placed inside the [robotcontrol/ ](https://github.com/shoogalmmr/RobotDash/tree/main/robotcontrol) folder under the htdocs directory in your XAMPP installation.**
+
+## Author
+
+Shoog - Developer of this project
+
+I’d be happy to connect or have you explore my other projects.
+
+GitHub: [@shoogalmmr](https://github.com/shoogalmmr)
+
+LinkedIn [Shoog](www.linkedin.com/in/shoog-almmr)
