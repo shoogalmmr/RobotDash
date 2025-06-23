@@ -172,7 +172,7 @@ Follow the steps below to run the robot control simulation project locally on yo
 
 1- Open your browser and go to (http://localhost/phpmyadmin.)
 
-2- Create a new database, e.g., robot_control.
+2- Create a new database, e.g., MovableDB.
 
 3- Import the provided SQL structure:
 
@@ -188,15 +188,10 @@ Copy the entire robotcontrol/ folder https://github.com/shoogalmmr/RobotDash/tre
 
 **Step 4: Configure Database Connection**
 
-Open the db_config.php file and update the database settings if needed:
+Open the db_config.php file and ensure that the database connection settings are correctly configured based on your local environment.
 
-php
-نسخ
-تحرير
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbname = "robot_control"; // Make sure this matches your database name
+### *Note*: Make sure that the database name used in this file matches exactly the name of the database you created in phpMyAdmin (e.g., MovableDB). Otherwise, the connection will not work properly.
+
 
 **Step 5: Run the Project**
 Open your browser and go to:
