@@ -24,7 +24,7 @@ The project presents a robot simulation system controlled through a simple web i
 
 *[Future Improvememts](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#future-improvements)*
 
-*[Autor](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#author)*
+*[Author](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#author)*
 
 ## Project Overview
 
