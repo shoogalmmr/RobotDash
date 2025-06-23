@@ -184,7 +184,7 @@ Follow the steps below to run the robot control simulation project locally on yo
 
 Copy the entire [robotcontrol/ folder](https://github.com/shoogalmmr/RobotDash/tree/main/robotcontrol) (which contains the following files) into the htdocs directory inside your XAMPP installation:
 
-```index.html, styles.css, script.js, save_position.php, get_last_position.php, db_config.php```
+```index.html``` ```styles.css``` ```script.js``` ```save_position.php``` ```get_last_position.php``` ```db_config.php```
 
 **Step 4: Configure Database Connection**
 
@@ -199,9 +199,8 @@ Open your browser and go to: http://localhost/robotcontrol/index.html
 
 You should now see the robot control interface. Try clicking movement buttons and watch the robot move while the position is saved in the database.
 
-*Test It*
+### **Test It** 
 Open phpMyAdmin and check the ```positions``` table to verify that commands and positions are being recorded correctly.
-
 
 ##  Future Improvements
 - **Integrate with a Physical Robot Using Arduino or Raspberry Pi**
