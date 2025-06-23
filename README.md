@@ -19,32 +19,6 @@ The system is connected to a MySQL database via phpMyAdmin, where all movement c
 
 This project serves as a foundational step toward developing intelligent robot control systems and can be expanded in the future to control a physical robot or integrate additional technologies such as artificial intelligence and path tracking.
 
-## Project Goals:
-
-- Simplify remote robot control through a user-friendly interface.
-
-- Record and track all movement data for performance analysis.
-
-- Create a scalable system that can be enhanced with additional features (e.g., camera integration or voice control).
-
-## Key Features
-- **User-Friendly Interactive Interface**
-Allows users to control the robot easily through clear directional buttons.
-
-- **Real-Time Visual Simulation**
-The robot is represented by a green square that moves instantly based on user commands.
-
-- **Automatic Data Logging**
-Every movement command is recorded along with the robot’s position in a MySQL database for tracking and analysis.
-
-- **Efficient Web-to-Database Integration**
-Utilizes PHP and phpMyAdmin to ensure smooth communication and data updates.
-
-- **Movement History Tracking**
-Stored data in the positions table allows users to analyze robot behavior over time.
-
-
-
 ## Project Components:
 
 ### **1- User Interface (Frontend):**
@@ -93,6 +67,29 @@ Stored data in the positions table allows users to analyze robot behavior over t
 
 - The robot can be programmed using Arduino C, Python, or another suitable microcontroller-based language.
 
+## Project Goals:
+
+- Simplify remote robot control through a user-friendly interface.
+
+- Record and track all movement data for performance analysis.
+
+- Create a scalable system that can be enhanced with additional features (e.g., camera integration or voice control).
+
+## Key Features
+- **User-Friendly Interactive Interface**
+Allows users to control the robot easily through clear directional buttons.
+
+- **Real-Time Visual Simulation**
+The robot is represented by a green square that moves instantly based on user commands.
+
+- **Automatic Data Logging**
+Every movement command is recorded along with the robot’s position in a MySQL database for tracking and analysis.
+
+- **Efficient Web-to-Database Integration**
+Utilizes PHP and phpMyAdmin to ensure smooth communication and data updates.
+
+- **Movement History Tracking**
+Stored data in the positions table allows users to analyze robot behavior over time.
 
 ## Technologies Used 
 - HTML, CSS, JavaScript
