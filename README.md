@@ -1,15 +1,30 @@
 # Design and Simulation of Robot Movement Control Using Web Interface and MySQL
 The project presents a robot simulation system controlled through a simple web interface. Movement commands and positions are stored in a MySQL database for tracking and analysis.
 ## Table of content
-*[Project Overiew](https://github.com/shoogalmmr/RobotDash#project-overview)*
 
-*[Web Interface](https://github.com/shoogalmmr/RobotDash#web-interface)*
+*[Project Overiew](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#project-overview)*
 
 *[Project Components](https://github.com/shoogalmmr/RobotDash/tree/main#project-components)*
 
-*[Project Goals](https://github.com/shoogalmmr/RobotDash/tree/main#project-goals)*
+*[Project Structure](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#project-structure)*
+
+*[Project Goals](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#project-goals)*
 
 *[Kay Features](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#key-features)*
+
+*[Technologies used](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#technologies-used)*
+
+*[User Interface](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#user-interface)*
+
+*[How it works](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#how-it-works)*
+
+*[Database Structure](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#database-structure)*
+
+*[Installation](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#installation)*
+
+*[Future Improvememts](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#future-improvements)*
+
+*[Autor](https://github.com/shoogalmmr/RobotDash?tab=readme-ov-file#author)*
 
 ## Project Overview
 
